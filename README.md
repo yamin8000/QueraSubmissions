@@ -38,7 +38,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Birthday_615.py](/python/Birthday_615.py)                                    | [66859](https://quera.org/problemset/615)   |
 | [PalindromeNumber_617.py](/python/PalindromeNumber_617.py)                    | [66859](https://quera.org/problemset/617)   |
 | [nMax_588.py](/python/nMax_588.py)                                            | [66859](https://quera.org/problemset/588)   |
-| [ComplexCalculation_279.cpp](/cpp/ComplexCalculation_279.cpp)                 | [66859](https://quera.org/problemset/279)   |
-| [PerfectNumber_282.cpp](/cpp/PerfectNumber_282.cpp)                           | [66859](https://quera.org/problemset/282)   |
-| [PowerOfTwo_616.cpp](/cpp/PowerOfTwo_616.cpp)                                 | [66859](https://quera.org/problemset/616)   |
-| [SquarePrinter_591.cpp](/cpp/SquarePrinter_591.cpp)                           | [66859](https://quera.org/problemset/591)   |
+| [ComplexCalculation_279.cpp](/CPP/ComplexCalculation_279.cpp)                 | [66859](https://quera.org/problemset/279)   |
+| [PerfectNumber_282.cpp](/CPP/PerfectNumber_282.cpp)                           | [66859](https://quera.org/problemset/282)   |
+| [PowerOfTwo_616.cpp](/CPP/PowerOfTwo_616.cpp)                                 | [66859](https://quera.org/problemset/616)   |
+| [SquarePrinter_591.cpp](/CPP/SquarePrinter_591.cpp)                           | [66859](https://quera.org/problemset/591)   |

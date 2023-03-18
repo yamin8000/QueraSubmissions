@@ -42,3 +42,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [PerfectNumber_282.cpp](/CPP/PerfectNumber_282.cpp)                           | [282](https://quera.org/problemset/282)     |
 | [PowerOfTwo_616.cpp](/CPP/PowerOfTwo_616.cpp)                                 | [616](https://quera.org/problemset/616)     |
 | [SquarePrinter_591.cpp](/CPP/SquarePrinter_591.cpp)                           | [591](https://quera.org/problemset/591)     |
+| [Flowers_66867.cpp](/src/main/java/Flowers_66867.java)                        | [591](https://quera.org/problemset/66867)   |

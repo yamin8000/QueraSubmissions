@@ -45,3 +45,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Flowers_66867.cpp](/src/main/java/Flowers_66867.java)                        | [66867](https://quera.org/problemset/66867) |
 | [SpecialSquare_296.java](/src/main/java/SpecialSquare_296.java)               | [296](https://quera.org/problemset/296)     |
 | [Palindrome_308.java](/src/main/java/Palindrome_308.java)                     | [308](https://quera.org/problemset/308)     |
+| [RecursiveExponent_304.java](/src/main/java/RecursiveExponent_304.java)       | [304](https://quera.org/problemset/304)     |

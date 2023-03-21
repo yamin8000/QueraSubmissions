@@ -11,8 +11,7 @@ public class RecursiveExponent_304 {
     }
 
     private static double power(double base, int expo) {
-        if (base == 1) return 1;
-        if (expo == 1) return base;
+        if (expo == 0) return 1;
         else return base * power(base, expo - 1);
     }
 }

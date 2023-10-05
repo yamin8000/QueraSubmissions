@@ -48,3 +48,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [RecursiveExponent_304.java](/src/main/java/RecursiveExponent_304.java)       | [304](https://quera.org/problemset/304)     |
 | [Barare_10162.kt](/src/main/kotlin/Barare_10162.kt)                           | [10162](https://quera.org/problemset/10162) |
 | [PrintBackwards_3405.kt](/src/main/kotlin/PrintBackwards_3405.kt)             | [3405](https://quera.org/problemset/3405)   |
+| [LinePeriod_3414.kt](/src/main/kotlin/LinePeriod_3414.kt)                     | [3414](https://quera.org/problemset/3414)   |

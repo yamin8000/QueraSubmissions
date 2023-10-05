@@ -46,4 +46,5 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [SpecialSquare_296.java](/src/main/java/SpecialSquare_296.java)               | [296](https://quera.org/problemset/296)     |
 | [Palindrome_308.java](/src/main/java/Palindrome_308.java)                     | [308](https://quera.org/problemset/308)     |
 | [RecursiveExponent_304.java](/src/main/java/RecursiveExponent_304.java)       | [304](https://quera.org/problemset/304)     |
-| [Barare_10162.kt](/src/main/kotlin/Barare_10162.kt)                           | [304](https://quera.org/problemset/10162)   |
+| [Barare_10162.kt](/src/main/kotlin/Barare_10162.kt)                           | [10162](https://quera.org/problemset/10162) |
+| [PrintBackwards_3405.kt](/src/main/kotlin/PrintBackwards_3405.kt)             | [3405](https://quera.org/problemset/3405)   |

@@ -51,3 +51,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [LinePeriod_3414.kt](/src/main/kotlin/LinePeriod_3414.kt)                     | [3414](https://quera.org/problemset/3414)   |
 | [Grade_51865.kt](/src/main/kotlin/Grade_51865.kt)                             | [51865](https://quera.org/problemset/51865) |
 | [Copy_8838.kt](/src/main/kotlin/Copy_8838.kt)                                 | [8838](https://quera.org/problemset/8838)   |
+| [Ches_2636.go](/go/Ches_2636.go)                                              | [2636](https://quera.org/problemset/2636)   |

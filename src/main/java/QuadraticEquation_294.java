@@ -11,8 +11,15 @@ public class QuadraticEquation_294 {
     }
 
     private static String solve(float a, float b, float c) {
-        if (b == 0) return "IMPOSSIBLE";
+        if (a == 0 && b == 0) return "IMPOSSIBLE";
         if (a == 0) return formatter(c / -b);
+        if (b == 0) {
+            if (a > 0 && c < 0) return formatter(-1f * (float) Math.sqrt(a)) + "\n" + formatter((float) Math.sqrt(a));
+            else if (a < 0 && c > 0)
+                return formatter(-1f * (float) Math.sqrt(a)) + "\n" + formatter((float) Math.sqrt(a));
+            else return "IMPOSSIBLE";
+        }
+        if (c == 0) return "0.000" + "\n" + formatter(-1f * b / a);
         var delta = delta(a, b, c);
         if (delta < 0) return "IMPOSSIBLE";
         else if (delta == 0) return formatter(-b / (2 * a));

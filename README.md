@@ -55,3 +55,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Days_3538.kt](/src/main/kotlin/Days_3538.kt)                                 | [3538](https://quera.org/problemset/3538)   |
 | [Sin_28947.go](/go/Sin_28947.go)                                              | [28947](https://quera.org/problemset/28947) |
 | [Fitness_20256.go](/go/Fitness_20256.go)                                      | [20256](https://quera.org/problemset/20256) |
+| [Charge_17244.go](/go/Charge_17244.go)                                        | [17244](https://quera.org/problemset/17244) |

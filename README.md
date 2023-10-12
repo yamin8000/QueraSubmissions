@@ -53,3 +53,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Copy_8838.kt](/src/main/kotlin/Copy_8838.kt)                                 | [8838](https://quera.org/problemset/8838)   |
 | [Chess_2636.go](/go/Chess_2636.go)                                            | [2636](https://quera.org/problemset/2636)   |
 | [Days_3538.kt](/src/main/kotlin/Days_3538.kt)                                 | [3538](https://quera.org/problemset/3538)   |
+| [Sin_28947.go](/go/Sin_28947.go)                                              | [28947](https://quera.org/problemset/28947) |

@@ -59,3 +59,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [SpeakerEcho_3430.go](/go/SpeakerEcho_3430.go)                                | [3430](https://quera.org/problemset/3430)   |
 | [BMI_3404.go](/go/BMI_3404.go)                                                | [3404](https://quera.org/problemset/3404)   |
 | [Fibonacci_17675.kt](/src/main/kotlin/Fibonacci_17675.kt)                     | [17675](https://quera.org/problemset/17675) |
+| [Floor_31025.c](/c/Floor_31025.c)                                             | [31025](https://quera.org/problemset/31025) |

@@ -61,3 +61,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Fibonacci_17675.kt](/src/main/kotlin/Fibonacci_17675.kt)                     | [17675](https://quera.org/problemset/17675) |
 | [Floor_31025.c](/c/Floor_31025.c)                                             | [31025](https://quera.org/problemset/31025) |
 | [Sky_6082.py](/python/Sky_6082.py)                                            | [6082](https://quera.org/problemset/6082)   |
+| [Bagher_10231.kt](/src/main/kotlin/Bagher_10231.kt)                           | [10231](https://quera.org/problemset/10231) |

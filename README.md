@@ -69,3 +69,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Eye_2659.kt](/src/main/kotlin/Eye_2659.kt)                                   | [2659](https://quera.org/problemset/2659)     |
 | [Welcome_123798.rb](/other/Welcome_123798.rb)                                 | [123798](https://quera.org/problemset/123798) |
 | [SumOfGreats_2551](/src/main/kotlin/SumOfGreats_2551)                         | [2551](https://quera.org/problemset/2551)     |
+| [StringChecker_106795.rb](/other/StringChecker_106795.rb)                     | [106795](https://quera.org/problemset/106795) |

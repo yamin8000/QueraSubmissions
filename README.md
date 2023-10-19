@@ -64,3 +64,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Bagher_10231.kt](/src/main/kotlin/Bagher_10231.kt)                           | [10231](https://quera.org/problemset/10231) |
 | [Simple_3403.go](/go/Simple_3403.go)                                          | [3403](https://quera.org/problemset/3403)   |
 | [Leader_72874.rb](/other/Leader_72874.rb)                                     | [72874](https://quera.org/problemset/72874) |
+| [Divisors_33045.kt](/src/main/kotlin/Divisors_33045.kt)                       | [33045](https://quera.org/problemset/33045) |

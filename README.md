@@ -65,3 +65,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Simple_3403.go](/go/Simple_3403.go)                                          | [3403](https://quera.org/problemset/3403)   |
 | [Leader_72874.rb](/other/Leader_72874.rb)                                     | [72874](https://quera.org/problemset/72874) |
 | [Divisors_33045.kt](/src/main/kotlin/Divisors_33045.kt)                       | [33045](https://quera.org/problemset/33045) |
+| [Names_2529.kt](/src/main/kotlin/Names_2529.kt)                               | [2529](https://quera.org/problemset/2529)   |

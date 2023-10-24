@@ -71,3 +71,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [SumOfGreats_2551.kt](/src/main/kotlin/SumOfGreats_2551.kt)                   | [2551](https://quera.org/problemset/2551)     |
 | [StringChecker_106795.rb](/other/StringChecker_106795.rb)                     | [106795](https://quera.org/problemset/106795) |
 | [WorkersNaming_10636.kt](/src/main/kotlin/WorkersNaming_10636.kt)             | [10636](https://quera.org/problemset/10636)   |
+| [Word_108665.py](/python/Word_108665.py)                                      | [108665](https://quera.org/problemset/108665) |

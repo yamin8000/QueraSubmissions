@@ -73,3 +73,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [WorkersNaming_10636.kt](/src/main/kotlin/WorkersNaming_10636.kt)              | [10636](https://quera.org/problemset/10636)   |
 | [Word_108665.py](/python/Word_108665.py)                                       | [108665](https://quera.org/problemset/108665) |
 | [FibonacciExpressions_596.kt](/src/main/kotlin/FibonacciExpressions_596.kt.kt) | [596](https://quera.org/problemset/596)       |
+| [HeaterCooler_147635.py](/python/HeaterCooler_147635.py)                       | [147635](https://quera.org/problemset/147635) |

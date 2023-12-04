@@ -23,7 +23,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 
 private fun main() {
     val codes = mutableMapOf<String, List<String>>()
-    codes["C++"] = getLanguageCodes(cppPath)
+    codes["C++"] = getLanguageCodes(cppPath).map { it.replaceFirst("cpp", "CPP") }
     codes["Golang"] = getLanguageCodes(goPath)
     codes["Python"] = getLanguageCodes(pythonPath, "py")
     codes["Java"] = getLanguageCodes(javaPath, "java").filterNot { it.contains("Main.java") }

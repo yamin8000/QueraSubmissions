@@ -4,10 +4,10 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 
 | Code | Quera Link | Quera name | Language |
 |-|-|-|-|
-| [ComplexCalculation_279.cpp](/cpp/ComplexCalculation_279.cpp) | [279](https://quera.org/problemset/279) | محاسبه‌ی پیچیده | C++ |
-| [PerfectNumber_282.cpp](/cpp/PerfectNumber_282.cpp) | [282](https://quera.org/problemset/282) | کامل بودن یا نبودن | C++ |
-| [PowerOfTwo_616.cpp](/cpp/PowerOfTwo_616.cpp) | [616](https://quera.org/problemset/616) | توان دو | C++ |
-| [SquarePrinter_591.cpp](/cpp/SquarePrinter_591.cpp) | [591](https://quera.org/problemset/591) | چاپ مربع | C++ |
+| [ComplexCalculation_279.cpp](/CPP/ComplexCalculation_279.cpp) | [279](https://quera.org/problemset/279) | محاسبه‌ی پیچیده | C++ |
+| [PerfectNumber_282.cpp](/CPP/PerfectNumber_282.cpp) | [282](https://quera.org/problemset/282) | کامل بودن یا نبودن | C++ |
+| [PowerOfTwo_616.cpp](/CPP/PowerOfTwo_616.cpp) | [616](https://quera.org/problemset/616) | توان دو | C++ |
+| [SquarePrinter_591.cpp](/CPP/SquarePrinter_591.cpp) | [591](https://quera.org/problemset/591) | چاپ مربع | C++ |
 | [BMI_3404.go](/go/BMI_3404.go) | [3404](https://quera.org/problemset/3404) | تو چقدر اضافه وزن داری؟ | Golang |
 | [Charge_17244.go](/go/Charge_17244.go) | [17244](https://quera.org/problemset/17244) | شارژ موبایل | Golang |
 | [Chess_2636.go](/go/Chess_2636.go) | [2636](https://quera.org/problemset/2636) | شطرنج حرفه‌ای | Golang |

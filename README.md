@@ -78,6 +78,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [WorkersNaming_10636.kt](/src/main/kotlin/WorkersNaming_10636.kt) | [10636](https://quera.org/problemset/10636) | کارمند زیادی | Kotlin |
 | [camera_2794.rs](/rust/main_cargo/src/camera_2794.rs) | [2794](https://quera.org/problemset/2794) | دوربین مداربسته | Rust |
 | [question_3408.rs](/rust/main_cargo/src/question_3408.rs) | [3408](https://quera.org/problemset/3408) | سوال برنامه نویسی برنامه نویسی سوال | Rust |
+| [walnut_3540.rs](/rust/main_cargo/src/walnut_3540.rs) | [3540](https://quera.org/problemset/3540) | گردو شکستم | Rust |
 | [Floor_31025.c](/other/Floor_31025.c) | [31025](https://quera.org/problemset/31025) | صبا و سوال ساده | Other |
 | [Leader_72874.rb](/other/Leader_72874.rb) | [72874](https://quera.org/problemset/72874) | فرمانده‌ی بازنشسته | Other |
 | [StringChecker_106795.rb](/other/StringChecker_106795.rb) | [106795](https://quera.org/problemset/106795) | رشته چکر | Other |

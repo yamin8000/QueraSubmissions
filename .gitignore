@@ -41,3 +41,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/rust/main_cargo/target/
+/rust/main_cargo/Cargo.lock

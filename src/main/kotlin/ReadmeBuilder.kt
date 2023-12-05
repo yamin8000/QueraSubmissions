@@ -10,6 +10,7 @@ private const val goPath = "go"
 private const val pythonPath = "python"
 private const val javaPath = "src/main/java"
 private const val kotlinPath = "src/main/kotlin"
+private const val rustPath = "rust/main_cargo/src"
 private const val othersPath = "other"
 
 private val current = Paths.get("").toAbsolutePath().toString()
@@ -28,6 +29,7 @@ private fun main() {
     codes["Python"] = getLanguageCodes(pythonPath, "py")
     codes["Java"] = getLanguageCodes(javaPath, "java").filterNot { it.contains("Main.java") }
     codes["Kotlin"] = getLanguageCodes(kotlinPath, "kt").filterNot { it.contains("ReadmeBuilder") }
+    codes["Rust"] = getLanguageCodes(rustPath, "rs").filterNot { it.contains("main.rs") }
     codes["Other"] = getLanguageCodes(othersPath, "")
 
     val output = buildString {
@@ -38,7 +40,7 @@ private fun main() {
         codes.forEach { language ->
             language.value.forEach { code ->
                 val name = code.substringAfterLast('/')
-                val number = code.substringAfter('_').substringBefore('.')
+                val number = code.substringAfterLast('_').substringBefore('.')
                 val farsiName = getTitle("$base$number")
                 appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${language.key} |")
             }

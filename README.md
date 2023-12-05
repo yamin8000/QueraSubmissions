@@ -76,6 +76,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [QuadraticEquation_294.kt](/src/main/kotlin/QuadraticEquation_294.kt) | [294](https://quera.org/problemset/294) | معادله درجه دو | Kotlin |
 | [SumOfGreats_2551.kt](/src/main/kotlin/SumOfGreats_2551.kt) | [2551](https://quera.org/problemset/2551) | جمع بزرگان | Kotlin |
 | [WorkersNaming_10636.kt](/src/main/kotlin/WorkersNaming_10636.kt) | [10636](https://quera.org/problemset/10636) | کارمند زیادی | Kotlin |
+| [question_3408.rs](/rust/main_cargo/src/question_3408.rs) | [3408](https://quera.org/problemset/3408) | سوال برنامه نویسی برنامه نویسی سوال | Rust |
 | [Floor_31025.c](/other/Floor_31025.c) | [31025](https://quera.org/problemset/31025) | صبا و سوال ساده | Other |
 | [Leader_72874.rb](/other/Leader_72874.rb) | [72874](https://quera.org/problemset/72874) | فرمانده‌ی بازنشسته | Other |
 | [StringChecker_106795.rb](/other/StringChecker_106795.rb) | [106795](https://quera.org/problemset/106795) | رشته چکر | Other |

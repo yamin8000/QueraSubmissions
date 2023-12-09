@@ -60,6 +60,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [SpecialSquare_296.java](/src/main/java/SpecialSquare_296.java) | [296](https://quera.org/problemset/296) | مربع خاص | Java |
 | [StarPrinter_9773.java](/src/main/java/StarPrinter_9773.java) | [9773](https://quera.org/problemset/9773) | لوزی‌های ستاره‌ای | Java |
 | [Tiling_605.java](/src/main/java/Tiling_605.java) | [605](https://quera.org/problemset/605) | کاشی‌کاری | Java |
+| [Zeyni_33023.java](/src/main/java/Zeyni_33023.java) | [33023](https://quera.org/problemset/33023) | زینی | Java |
 | [Bagher_10231.kt](/src/main/kotlin/Bagher_10231.kt) | [10231](https://quera.org/problemset/10231) | خُب باقر سرما خورده | Kotlin |
 | [Barare_10162.kt](/src/main/kotlin/Barare_10162.kt) | [10162](https://quera.org/problemset/10162) | روز آزادی بیان در برره | Kotlin |
 | [Copy_8838.kt](/src/main/kotlin/Copy_8838.kt) | [8838](https://quera.org/problemset/8838) | کمک به کاپی | Kotlin |

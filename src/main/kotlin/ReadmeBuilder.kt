@@ -41,7 +41,7 @@ private fun main() {
             language.value.forEach { code ->
                 val name = code.substringAfterLast('/')
                 val number = code.substringAfterLast('_').substringBefore('.')
-                val farsiName = getTitle("$base$number")
+                val farsiName = findTitle("$base$number")
                 appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${language.key} |")
             }
         }
@@ -63,6 +63,20 @@ private fun getLanguageCodes(
         .mapNotNull { it.absolutePath }
         .map { it.removePrefix(current) }
         .map { it.replace("\\", "/") }
+}
+
+private fun findTitle(
+    url: String
+): String {
+    val file = File("temp/${url.substringAfterLast('/')}")
+    if (file.exists()) {
+        return file.readText()
+    } else {
+        val title = getTitle(url)
+        file.createNewFile()
+        file.writeText(title)
+        return title
+    }
 }
 
 private fun getTitle(

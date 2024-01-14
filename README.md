@@ -63,6 +63,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Zeyni_33023.java](/src/main/java/Zeyni_33023.java) | [33023](https://quera.org/problemset/33023) | زینی | Java |
 | [Bagher_10231.kt](/src/main/kotlin/Bagher_10231.kt) | [10231](https://quera.org/problemset/10231) | خُب باقر سرما خورده | Kotlin |
 | [Barare_10162.kt](/src/main/kotlin/Barare_10162.kt) | [10162](https://quera.org/problemset/10162) | روز آزادی بیان در برره | Kotlin |
+| [Breathe_26651.kt](/src/main/kotlin/Breathe_26651.kt) | [26651](https://quera.org/problemset/26651) | سوال نفس‌گیر | Kotlin |
 | [Copy_8838.kt](/src/main/kotlin/Copy_8838.kt) | [8838](https://quera.org/problemset/8838) | کمک به کاپی | Kotlin |
 | [Days_3538.kt](/src/main/kotlin/Days_3538.kt) | [3538](https://quera.org/problemset/3538) | آخ جون طرف نیست! | Kotlin |
 | [Divisors_33045.kt](/src/main/kotlin/Divisors_33045.kt) | [33045](https://quera.org/problemset/33045) | مقسوم‌علیه‌های دردسرساز | Kotlin |

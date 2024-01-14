@@ -43,3 +43,4 @@ bin/
 /.idea/
 /rust/main_cargo/target/
 /rust/main_cargo/Cargo.lock
+/temp/

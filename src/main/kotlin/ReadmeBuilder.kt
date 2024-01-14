@@ -72,12 +72,11 @@ private fun getTitle(
     return (client.newCall(Request.Builder().url(url).build())
         .execute()
         .body
-        ?.string()
-        ?.substringAfter("<title>")
-        ?.substringBefore("</title>")
-        ?.split("|")
-        ?.first()
-        ?.replace("\u200F", "")
-        ?.trim())
-        ?: ""
+        .string()
+        .substringAfter("<title>")
+        .substringBefore("</title>")
+        .split("|")
+        .first()
+        .replace("\u200F", "")
+        .trim())
 }

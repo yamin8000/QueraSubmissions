@@ -75,6 +75,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [LinePeriod_3414.kt](/src/main/kotlin/LinePeriod_3414.kt) | [3414](https://quera.org/problemset/3414) | دو نقطه خط | Kotlin |
 | [Names_2529.kt](/src/main/kotlin/Names_2529.kt) | [2529](https://quera.org/problemset/2529) | اسم‌ها | Kotlin |
 | [Pashmal_72877.kt](/src/main/kotlin/Pashmal_72877.kt) | [72877](https://quera.org/problemset/72877) | پشمال‌آقا | Kotlin |
+| [Password_17902.kt](/src/main/kotlin/Password_17902.kt) | [17902](https://quera.org/problemset/17902) | رمز | Kotlin |
 | [PrintBackwards_3405.kt](/src/main/kotlin/PrintBackwards_3405.kt) | [3405](https://quera.org/problemset/3405) | چاپ برعکس | Kotlin |
 | [QuadraticEquation_294.kt](/src/main/kotlin/QuadraticEquation_294.kt) | [294](https://quera.org/problemset/294) | معادله درجه دو | Kotlin |
 | [SumOfGreats_2551.kt](/src/main/kotlin/SumOfGreats_2551.kt) | [2551](https://quera.org/problemset/2551) | جمع بزرگان | Kotlin |

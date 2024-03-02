@@ -18,19 +18,21 @@ public class AlphaCentauri_66859 {
             Map.entry(12, "C"),
             Map.entry(13, "D"),
             Map.entry(14, "E"),
-            Map.entry(15, "F")
-    );
+            Map.entry(15, "F"));
 
     public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.nextLine().split(" ");
         System.out.println(radixConvert(Integer.parseInt(input[0]), Integer.parseInt(input[1])));
+        scanner.close();
     }
 
     private static String radixConvert(int input, int radix) {
         if (input < radix) {
-            if (radix <= 10) return String.valueOf(input);
-            else return numbers.get(input);
+            if (radix <= 10)
+                return String.valueOf(input);
+            else
+                return numbers.get(input);
         } else {
             StringBuilder builder = new StringBuilder();
             int divisor = input;
@@ -42,7 +44,8 @@ public class AlphaCentauri_66859 {
                 int remainder = divisor % radix;
                 if (remainder >= 10)
                     builder.append(numbers.get(remainder));
-                else builder.append(remainder);
+                else
+                    builder.append(remainder);
                 divisor /= radix;
             }
             return builder.reverse().toString();

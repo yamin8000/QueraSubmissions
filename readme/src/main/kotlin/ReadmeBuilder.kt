@@ -1,6 +1,7 @@
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
+import java.nio.file.Files
 import java.nio.file.Paths
 
 private const val base = "https://quera.org/problemset/"
@@ -28,7 +29,7 @@ private fun main() {
     codes["Golang"] = getLanguageCodes(goPath)
     codes["Python"] = getLanguageCodes(pythonPath, "py")
     codes["Java"] = getLanguageCodes(javaPath, "java").filterNot { it.contains("Main.java") }
-    codes["Kotlin"] = getLanguageCodes(kotlinPath, "kt").filterNot { it.contains("ReadmeBuilder") }
+    codes["Kotlin"] = getLanguageCodes(kotlinPath, "kt")
     codes["Rust"] = getLanguageCodes(rustPath, "rs").filterNot { it.contains("main.rs") }
     codes["Other"] = getLanguageCodes(othersPath, "")
 
@@ -68,6 +69,8 @@ private fun getLanguageCodes(
 private fun findTitle(
     url: String
 ): String {
+    createTempDirectory()
+
     val file = File("temp/${url.substringAfterLast('/')}")
     if (file.exists()) {
         return file.readText()
@@ -76,6 +79,21 @@ private fun findTitle(
         file.createNewFile()
         file.writeText(title)
         return title
+    }
+}
+
+private fun createTempDirectory() {
+    val tempPath = "temp"
+    try {
+        val temp = File(tempPath)
+        if (temp.exists()) {
+            if (temp.isFile) {
+                temp.delete()
+                Files.createDirectory(Paths.get(tempPath))
+            }
+        } else Files.createDirectory(Paths.get(tempPath))
+    } catch (e: Exception) {
+        println(e.message)
     }
 }
 

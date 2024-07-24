@@ -1,3 +1,5 @@
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
@@ -40,10 +42,18 @@ private fun main() {
         appendLine("|-|-|-|-|")
         codes.forEach { language ->
             language.value.forEach { code ->
-                val name = code.substringAfterLast('/')
-                val number = code.substringAfterLast('_').substringBefore('.')
-                val farsiName = findTitle("$base$number")
-                appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${language.key} |")
+                runBlocking {
+                    val name = code.substringAfterLast('/')
+                    val number = code.substringAfterLast('_').substringBefore('.')
+
+                    print("Getting title for: ${language.key}:${name} ->")
+
+                    val farsiName = findTitle("$base$number")
+                    println(farsiName)
+
+                    appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${language.key} |")
+                    delay(250)
+                }
             }
         }
     }

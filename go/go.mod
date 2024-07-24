@@ -1,3 +1,3 @@
-module Chess_2636
+module golang
 
-go 1.21.6
+go 1.22

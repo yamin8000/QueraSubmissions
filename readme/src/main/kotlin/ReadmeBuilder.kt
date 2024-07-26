@@ -44,6 +44,7 @@ private fun main() {
         appendLine()
         appendLine("| Code | Quera Link | Quera name | Language |")
         appendLine("|-|-|-|-|")
+        val lines = mutableMapOf<Int, String>()
         codes.forEach { entry ->
             entry.value.forEach { code ->
                 runBlocking {
@@ -55,10 +56,13 @@ private fun main() {
                     val farsiName = findTitle("$base$number")
                     println(farsiName)
 
-                    appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${entry.key} |")
+                    lines[number.toInt()] = "| [$name]($code) | [$number]($base$number) | $farsiName | ${entry.key} |"
                     delay(Random.nextInt(100..500).toLong())
                 }
             }
+        }
+        lines.toSortedMap().forEach {
+            appendLine(it.value)
         }
     }
 

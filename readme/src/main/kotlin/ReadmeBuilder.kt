@@ -90,19 +90,19 @@ private suspend fun findTitle(
     createTempDirectory()
 
     val file = File("temp/${url.substringAfterLast('/')}")
-    if (file.exists()) {
-        return file.readText()
-    } else {
+    if (!file.exists()) {
         val title = getTitle(url)
+
         withContext(Dispatchers.IO) { file.createNewFile() }
         file.writeText(title)
+
         if (title.trim().contains("Wait... What?")) {
             println("Blocked, waiting...")
             delay(Random.nextInt(1000..5000).toLong())
             return findTitle(url)
         }
         return title
-    }
+    } else return file.readText()
 }
 
 private fun createTempDirectory() {

@@ -1,10 +1,14 @@
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.Paths
+import kotlin.random.Random
+import kotlin.random.nextInt
 
 private const val base = "https://quera.org/problemset/"
 
@@ -40,19 +44,19 @@ private fun main() {
         appendLine()
         appendLine("| Code | Quera Link | Quera name | Language |")
         appendLine("|-|-|-|-|")
-        codes.forEach { language ->
-            language.value.forEach { code ->
+        codes.forEach { entry ->
+            entry.value.forEach { code ->
                 runBlocking {
                     val name = code.substringAfterLast('/')
                     val number = code.substringAfterLast('_').substringBefore('.')
 
-                    print("Getting title for: ${language.key}:${name} ->")
+                    print("Getting title for: ${entry.key}:${name} ->")
 
                     val farsiName = findTitle("$base$number")
                     println(farsiName)
 
-                    appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${language.key} |")
-                    delay(250)
+                    appendLine("| [$name]($code) | [$number]($base$number) | $farsiName | ${entry.key} |")
+                    delay(Random.nextInt(100..500).toLong())
                 }
             }
         }
@@ -76,7 +80,7 @@ private fun getLanguageCodes(
         .map { it.replace("\\", "/") }
 }
 
-private fun findTitle(
+private suspend fun findTitle(
     url: String
 ): String {
     createTempDirectory()
@@ -86,8 +90,13 @@ private fun findTitle(
         return file.readText()
     } else {
         val title = getTitle(url)
-        file.createNewFile()
+        withContext(Dispatchers.IO) { file.createNewFile() }
         file.writeText(title)
+        if (title.trim().contains("Wait... What?")) {
+            println("Blocked, waiting...")
+            delay(Random.nextInt(1000..5000).toLong())
+            return findTitle(url)
+        }
         return title
     }
 }

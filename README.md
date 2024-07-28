@@ -14,7 +14,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [QuadraticEquation_294.kt](/src/main/kotlin/QuadraticEquation_294.kt) | [294](https://quera.org/problemset/294) | معادله درجه دو | Kotlin |
 | [SpecialSquare_296.java](/src/main/java/SpecialSquare_296.java) | [296](https://quera.org/problemset/296) | مربع خاص | Java |
 | [Exponential_297.java](/src/main/java/Exponential_297.java) | [297](https://quera.org/problemset/297) | تابع نمایی | Java |
-| [PrimeFactorization_298.java](/src/main/java/PrimeFactorization_298.java) | [298](https://quera.org/problemset/298) | عوامل اول | Java |
+| [factorization_298.rs](/rust/main_cargo/src/factorization_298.rs) | [298](https://quera.org/problemset/298) | عوامل اول | Rust |
 | [ReverseFibonacci_303.java](/src/main/java/ReverseFibonacci_303.java) | [303](https://quera.org/problemset/303) | دنباله‌ی فیبوناچی | Java |
 | [RecursiveExponent_304.java](/src/main/java/RecursiveExponent_304.java) | [304](https://quera.org/problemset/304) | تابع تواندار | Java |
 | [GCD_305.java](/src/main/java/GCD_305.java) | [305](https://quera.org/problemset/305) | ب.م.م | Java |

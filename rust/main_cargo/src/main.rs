@@ -3,6 +3,7 @@ mod camera_2794;
 mod walnut_3540;
 mod report_49535;
 mod off_10327;
+mod covid_178600;
 
 fn main() {
     //question_3408::question_3408();

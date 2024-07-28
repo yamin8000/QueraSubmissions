@@ -88,3 +88,4 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Word_108665.py](/python/Word_108665.py) | [108665](https://quera.org/problemset/108665) | کلمه کلمه | Python |
 | [Welcome_123798.rb](/other/Welcome_123798.rb) | [123798](https://quera.org/problemset/123798) | خوش‌آمد | Other |
 | [HeaterCooler_147635.py](/python/HeaterCooler_147635.py) | [147635](https://quera.org/problemset/147635) | کولر یا بخاری | Python |
+| [covid_178600.rs](/rust/main_cargo/src/covid_178600.rs) | [178600](https://quera.org/problemset/178600) | داروی کرونا | Rust |

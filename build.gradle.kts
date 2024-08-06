@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version ("2.0.0")
+    id("org.jetbrains.kotlin.jvm") version ("2.0.10")
 }
 
 group = "io.github.yamin8000"

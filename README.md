@@ -89,4 +89,5 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Welcome_123798.rb](/other/Welcome_123798.rb) | [123798](https://quera.org/problemset/123798) | خوش‌آمد | Other |
 | [HeaterCooler_147635.py](/python/HeaterCooler_147635.py) | [147635](https://quera.org/problemset/147635) | کولر یا بخاری | Python |
 | [Home_176782.py](/python/Home_176782.py) | [176782](https://quera.org/problemset/176782) | خانه‌ی دوست | Python |
+| [four_numbers_177663.rs](/rust/main_cargo/src/four_numbers_177663.rs) | [177663](https://quera.org/problemset/177663) | چهار عدد | Rust |
 | [covid_178600.rs](/rust/main_cargo/src/covid_178600.rs) | [178600](https://quera.org/problemset/178600) | داروی کرونا | Rust |

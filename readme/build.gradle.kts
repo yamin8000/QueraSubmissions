@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.12")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0-RC")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
 }
 
 kotlin {

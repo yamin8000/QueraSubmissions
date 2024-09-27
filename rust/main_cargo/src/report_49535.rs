@@ -24,5 +24,5 @@ pub fn main() {
 fn get_num() -> i32 {
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).unwrap();
-    return input.trim().parse().unwrap();
+    input.trim().parse().unwrap()
 }

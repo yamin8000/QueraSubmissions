@@ -20,7 +20,7 @@ pub fn main() {
 fn get_num() -> i32 {
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).unwrap_or_default();
-    return input.trim().parse().unwrap_or_default();
+    input.trim().parse().unwrap_or_default()
 }
 
 fn get_factors(mut n: i32) -> BTreeMap<i32, i32> {
@@ -57,7 +57,7 @@ fn get_factors(mut n: i32) -> BTreeMap<i32, i32> {
     } else {
         factors.insert(n, 1);
     }
-    return factors;
+    factors
 }
 
 fn is_prime(n: i32) -> bool {
@@ -75,5 +75,5 @@ fn is_prime(n: i32) -> bool {
             }
         }
     }
-    return true;
+    true
 }

@@ -6,6 +6,7 @@ mod off_10327;
 mod covid_178600;
 mod factorization_298;
 mod four_numbers_177663;
+mod gifts_660;
 
 fn main() {
     //question_3408::question_3408();
@@ -14,5 +15,6 @@ fn main() {
     //report_49535::main();
     //off_10327::main();
     //factorization_298::main();
-    four_numbers_177663::main();
+    //four_numbers_177663::main();
+    gifts_660::main();
 }

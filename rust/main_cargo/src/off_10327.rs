@@ -38,7 +38,7 @@ pub fn main() {
     }
 }
 
-pub fn get_unique_chars(input: &str) -> Vec<char> {
+fn get_unique_chars(input: &str) -> Vec<char> {
     let mut uniques: Vec<char> = vec![];
 
     for char in input.chars() {
@@ -46,5 +46,5 @@ pub fn get_unique_chars(input: &str) -> Vec<char> {
             uniques.push(char);
         }
     }
-    return uniques;
+    uniques
 }

@@ -21,7 +21,7 @@ pub fn main() {
 }
 
 fn steps(n: i32, x: i32, y: i32) -> (i32, i32) {
-    return if n % x == 0 {
+    if n % x == 0 {
         (n / x, 0)
     } else if n % y == 0 {
         (0, n / y)
@@ -37,5 +37,5 @@ fn steps(n: i32, x: i32, y: i32) -> (i32, i32) {
                 }
             }
         } else { (-1, -1) }
-    };
+    }
 }

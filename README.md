@@ -44,6 +44,7 @@ This repo is a compilation of my submissions to [Quera.org](https://quera.org) q
 | [Pythagoras_654.java](/src/main/java/Pythagoras_654.java) | [654](https://quera.org/problemset/654) | سه‌تایی فیثاغورثی | Java |
 | [FarzadCinephile_655.java](/src/main/java/FarzadCinephile_655.java) | [655](https://quera.org/problemset/655) | فرزاد فیلم‌بین | Java |
 | [FarzadWorkaholic_658.java](/src/main/java/FarzadWorkaholic_658.java) | [658](https://quera.org/problemset/658) | فرزاد کارکن | Java |
+| [gifts_660.rs](/rust/main_cargo/src/gifts_660.rs) | [660](https://quera.org/problemset/660) | جشن هدیه‌ها | Rust |
 | [Names_2529.kt](/src/main/kotlin/Names_2529.kt) | [2529](https://quera.org/problemset/2529) | اسم‌ها | Kotlin |
 | [SumOfGreats_2551.kt](/src/main/kotlin/SumOfGreats_2551.kt) | [2551](https://quera.org/problemset/2551) | جمع بزرگان | Kotlin |
 | [Chess_2636.go](/go/Chess_2636.go) | [2636](https://quera.org/problemset/2636) | شطرنج حرفه‌ای | Golang |

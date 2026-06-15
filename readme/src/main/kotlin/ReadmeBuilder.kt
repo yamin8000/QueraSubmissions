@@ -9,6 +9,7 @@ import java.nio.file.Files
 import java.nio.file.Paths
 import kotlin.random.Random
 import kotlin.random.nextInt
+import kotlin.time.Duration.Companion.milliseconds
 
 private const val base = "https://quera.org/problemset/"
 
@@ -29,7 +30,7 @@ private const val init = """# Quera Submissions
 This repo is a compilation of my submissions to [Quera.org](https://quera.org) questions.
 """
 
-private fun main() {
+fun main() {
     val codes = mutableMapOf<String, List<String>>()
     codes["C++"] = getLanguageCodes(cppPath).map { it.replaceFirst("cpp", "CPP") }
     codes["Golang"] = getLanguageCodes(goPath)
@@ -43,7 +44,7 @@ private fun main() {
         appendLine(init.trim())
         appendLine()
         appendLine("| Code | Quera Link | Quera name | Language |")
-        appendLine("|-|-|-|-|")
+        appendLine("|:-:|:-:|:-:|:-:|")
         val lines = mutableMapOf<Int, String>()
         codes.forEach { entry ->
             entry.value.forEach { code ->
@@ -57,7 +58,7 @@ private fun main() {
                     println(farsiName)
 
                     lines[number.toInt()] = "| [$name]($code) | [$number]($base$number) | $farsiName | ${entry.key} |"
-                    delay(Random.nextInt(100..500).toLong())
+                    delay(Random.nextInt(100..500).toLong().milliseconds)
                 }
             }
         }
@@ -98,7 +99,7 @@ private suspend fun findTitle(
 
         if (title.trim().contains("Wait... What?")) {
             println("Blocked, waiting...")
-            delay(Random.nextInt(1000..5000).toLong())
+            delay(Random.nextInt(1000..5000).toLong().milliseconds)
             return findTitle(url)
         }
         return title

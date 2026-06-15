@@ -3,7 +3,7 @@
 This repo is a compilation of my submissions to [Quera.org](https://quera.org) questions.
 
 | Code | Quera Link | Quera name | Language |
-|-|-|-|-|
+|:-:|:-:|:-:|:-:|
 | [NumbersSumAndLength_276.java](/src/main/java/NumbersSumAndLength_276.java) | [276](https://quera.org/problemset/276) | طول و مجموع ارقام | Java |
 | [ComplexCalculation_279.cpp](/CPP/ComplexCalculation_279.cpp) | [279](https://quera.org/problemset/279) | محاسبه‌ی پیچیده | C++ |
 | [Pythagoras_280.java](/src/main/java/Pythagoras_280.java) | [280](https://quera.org/problemset/280) | اعداد فیثاغورثی | Java |
